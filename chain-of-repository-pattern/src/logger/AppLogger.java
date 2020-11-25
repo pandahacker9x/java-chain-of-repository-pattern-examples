@@ -16,7 +16,4 @@ public class AppLogger{
         logger.log(msg, logLevel);
     }
 
-    public static void main(String[] args) {
-        log("abc", LogLevel.FATAL);
-    }
 }
